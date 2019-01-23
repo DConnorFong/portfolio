@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
-import 'bootstrap/dist/css/bootstrap.css';
-import './app.scss';
-import Header from '../header/header';
 
 class App extends Component {
     render() {
         return (
             <React.Fragment>
-                <Header />
+                <div className="container">
+                    <h5>{this.props.nav}</h5>
+                </div>
             </React.Fragment>
         );
     }
