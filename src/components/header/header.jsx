@@ -28,6 +28,7 @@ class Header extends Component {
                     </div>
                     <br />
                     {this.renderNavs()}
+                    <br />
                 </div>
             </React.Fragment>
         );
