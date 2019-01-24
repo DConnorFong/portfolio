@@ -20,7 +20,7 @@ class SkillContainer extends Component {
     }
 
     renderSkill() {
-        return <div className="row">{this.state.skillList.map(skill => <div className="col-lg-6 col-sm-6"><Skill skill={skill}/></div>)}</div>;
+        return <div className="row">{this.state.skillList.map(skill => <div className="col-lg-6 col-sm-6 col-xs-12"><Skill skill={skill}/></div>)}</div>;
     }
 }
 

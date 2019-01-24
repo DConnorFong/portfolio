@@ -137,7 +137,7 @@ class SkillsView extends Component {
 
     render() { 
         return (
-            <div className="container">
+            <div className="container animated fadeIn">
                 {this.renderSkill()}
             </div>
         );

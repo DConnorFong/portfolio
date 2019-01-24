@@ -17,7 +17,7 @@ class Skill extends Component {
                     percent={this.state.ranking}
                     theme={{
                         active: {
-                          color: 'rgb(141, 189, 87)'
+                          color: 'rgb(255, 255, 0)'
                         }
                       }}
                 />

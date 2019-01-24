@@ -6,10 +6,10 @@ class AboutView extends Component {
     state = {  }
     render() { 
         return (
-            <React.Fragment>
+            <div>
                 <About />
                 <DesignPhilosophy />
-            </React.Fragment>
+            </div>
         );
     }
 }

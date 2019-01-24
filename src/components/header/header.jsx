@@ -7,8 +7,7 @@ class Header extends Component {
         navs: [
             'About',
             'Skills',
-            'Experience',
-            'Contact'
+            'Experience'
         ]
     };
 
@@ -38,7 +37,7 @@ class Header extends Component {
         if (this.state.navs.length === 0) 
             return <p>No navs provided</p>;
         else
-            return <div className="row">{this.state.navs.map(nav => <div className="col-lg-3"><HeaderNav key={nav} nav={nav}/></div>)}</div>;
+            return <div className="row">{this.state.navs.map(nav => <div className="col-lg-4"><HeaderNav key={nav} nav={nav}/></div>)}</div>;
     }
 }
 

@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import ContactContainer from '../components/contact/contactContainer'
+import './footer.scss';
+import ContactContainer from '../contact/contactContainer'
 
-class ContactView extends Component {
+class Footer extends Component {
     state = { 
         contactInformation: [
             {
@@ -16,38 +17,41 @@ class ContactView extends Component {
                 icon: 'fas fa-envelope',
                 title: 'Email',
                 value: 'dconnorfong@gmail.com',
-                link: ''
+                link: 'dconnorfong@gmail.com'
             },
             {
                 id: 3,
                 icon: 'fab fa-linkedin',
                 title: 'LinkedIn',
                 value: '/in/connor-fong/',
-                link: ''
+                link: 'https://www.linkedin.com/in/connor-fong/'
             },
             {
                 id: 4,
                 icon: 'fas fa-desktop',
                 title: 'Website',
                 value: 'dconnorfong.io',
-                link: ''
+                link: 'dconnorfong.io'
             },
             {
                 id: 5,
                 icon: 'fab fa-github',
                 title: 'Github',
                 value: '/DConnorFong',
-                link: ''
+                link: 'https://github.com/DConnorFong'
             }
         ]
     };
+
     render() { 
         return ( 
-            <React.Fragment>
-                <ContactContainer contactInformation={this.state.contactInformation} />
-            </React.Fragment>
+            <div id="site-footer" class="container">
+                <footer class="page-footer">
+                    <ContactContainer contactInformation={this.state.contactInformation} />
+                </footer>
+            </div>
         );
     }
 }
  
-export default ContactView;
+export default Footer;

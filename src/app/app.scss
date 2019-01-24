@@ -1,10 +1,17 @@
 body {
-    background: url("../assets/background.jpg");
+    background: url("../assets/background2.jpg");
 }
 
 #site-content {
-    background: rgba(0, 0, 0, 0.75);
+    background: rgba(0, 0, 0, 0.8) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     height: 100vh;
+    @media only screen and (max-width: 991px) {
+        height: 100%;
+    }
 }
 
 p {
@@ -16,9 +23,9 @@ p {
 
 .site-heading {
     h3 {
-        background: blue;
         border: 3px solid white;
         border-radius: 10px;
+        color: white;
         display: inline;
         padding: 10px;
     }

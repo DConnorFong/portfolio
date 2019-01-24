@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.css';
 import './app.scss';
 import Header from '../components/header/header';
+import Footer from '../components/footer/footer';
 import AboutView from '../views/aboutView';
 import SkillsView from '../views/skillsView';
 import ExperienceView from '../views/experienceView';
@@ -23,6 +24,7 @@ class App extends Component {
                             <Route component={ AboutView } />
                         </Switch>
                     </div>
+                    <Footer />
                 </div> 
             </BrowserRouter>
         );

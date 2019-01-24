@@ -4,7 +4,7 @@ import './about.scss';
 
 const About = () => {
     return (
-        <div id="site-about" className="container">
+        <div id="site-about" className="container animated fadeIn">
             <span class="site-heading"><h3>Hey there!</h3></span>
             <p>
                 My name is Connor Fong. I am currently a <span class="site-highlight">Computer&nbsp;Engineering</span> student at the <span class="site-highlight">University&nbsp;of&nbsp;British&nbsp;Columbia </span> 
