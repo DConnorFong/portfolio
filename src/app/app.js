@@ -11,10 +11,10 @@ import ContactView from '../views/contactView';
 class App extends Component {
     render() {
         return (
-            <React.Fragment>
-                <BrowserRouter>
-                    <div className="container">
-                        <Header />
+            <BrowserRouter>
+                <div className="container">
+                    <Header />
+                    <div id="site-content">
                         <Switch>
                             <Route path="/" component={ AboutView } exact />
                             <Route path="/skills" component={ SkillsView }/> 
@@ -22,9 +22,9 @@ class App extends Component {
                             <Route path="/contact" component={ ContactView }/>
                             <Route component={ AboutView } />
                         </Switch>
-                    </div> 
-                </BrowserRouter>
-            </React.Fragment>
+                    </div>
+                </div> 
+            </BrowserRouter>
         );
     }
 }

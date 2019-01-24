@@ -1,0 +1,23 @@
+#site-about {
+    color: white;
+    text-align: center;
+
+    padding: 100px 15%;
+    @media only screen and (max-width: 767px) {
+        padding: 100px 5%;
+    }
+
+    p {
+        font-size: 20px;
+        padding: 50px;
+    }
+}
+
+#site-philosophy {
+    color: white;
+    text-align: center;
+
+    .site-philosophy-item {
+        padding: 25px;
+    }
+}
