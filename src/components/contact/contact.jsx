@@ -15,8 +15,9 @@ class Contact extends Component {
             <React.Fragment> 
                 <div className="container site-contact">
                     <div className="row">
-                        <a href={this.state.link} target="_blank">
+                        <a href={this.state.link} target="_blank" rel="noopener noreferrer">
                             {this.renderIcon()} 
+                            <p>{this.state.value}</p>
                         </a>
                     </div>
                 </div>

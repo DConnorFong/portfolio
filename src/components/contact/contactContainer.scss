@@ -1,3 +1,10 @@
 .site-contacts {
-    align-content: center;
+    .site-contact {
+        display: inline-block;
+        align-content: center;
+
+        a {
+            text-align: center;
+        }
+    }
 }
