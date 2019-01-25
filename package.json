@@ -2,8 +2,9 @@
   "name": "personal-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dconnorfong.github.io/",
+  "homepage": "https://dconnorfong.github.io/portfolio-website/",
   "dependencies": {
+    "animate.css": "^3.7.0",
     "bootstrap": "^4.2.1",
     "gh-pages": "^2.0.1",
     "jquery": "^3.3.1",
