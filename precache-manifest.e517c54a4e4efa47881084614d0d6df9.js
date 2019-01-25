@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/portfolio-website/static/media/fa-solid-900.27603739.svg"
   },
   {
-    "revision": "9b1d451b1bc50475fcf5",
-    "url": "/portfolio-website/static/css/main.25c1e2ee.chunk.css"
+    "revision": "ba26a37269cde656f70a",
+    "url": "/portfolio-website/static/css/main.8f259c74.chunk.css"
   },
   {
-    "revision": "894a2ede85a483bf9bedefd4db45cdb9",
-    "url": "/portfolio-website/static/media/Roboto-Medium.894a2ede.ttf"
+    "revision": "e31fcf1885e371e19f5786c2bdfeae1b",
+    "url": "/portfolio-website/static/media/Roboto-Bold.e31fcf18.ttf"
   },
   {
-    "revision": "dcd418d61099b93fcb5d",
-    "url": "/portfolio-website/static/js/1.dcd418d6.chunk.js"
+    "revision": "06da400db0c0899f90bb",
+    "url": "/portfolio-website/static/js/1.06da400d.chunk.js"
   },
   {
     "revision": "2b256896c0c48cf1d86c",
@@ -92,8 +92,8 @@ self.__precacheManifest = [
     "url": "/portfolio-website/static/media/fa-brands-400.fef43c1f.svg"
   },
   {
-    "revision": "9b1d451b1bc50475fcf5",
-    "url": "/portfolio-website/static/js/main.9b1d451b.chunk.js"
+    "revision": "ba26a37269cde656f70a",
+    "url": "/portfolio-website/static/js/main.ba26a372.chunk.js"
   },
   {
     "revision": "11911410dca2de148f30954eb2fd5eab",
@@ -164,10 +164,6 @@ self.__precacheManifest = [
     "url": "/portfolio-website/static/media/Roboto-Bold.dc81817d.woff"
   },
   {
-    "revision": "46e48ce0628835f68a7369d0254e4283",
-    "url": "/portfolio-website/static/media/Roboto-Light.46e48ce0.ttf"
-  },
-  {
     "revision": "94998475f6aea65f558494802416c1cf",
     "url": "/portfolio-website/static/media/Roboto-Thin.94998475.ttf"
   },
@@ -176,15 +172,19 @@ self.__precacheManifest = [
     "url": "/portfolio-website/static/media/Roboto-Regular.df7b648c.ttf"
   },
   {
-    "revision": "e31fcf1885e371e19f5786c2bdfeae1b",
-    "url": "/portfolio-website/static/media/Roboto-Bold.e31fcf18.ttf"
+    "revision": "894a2ede85a483bf9bedefd4db45cdb9",
+    "url": "/portfolio-website/static/media/Roboto-Medium.894a2ede.ttf"
   },
   {
-    "revision": "dcd418d61099b93fcb5d",
-    "url": "/portfolio-website/static/css/1.cf1631b0.chunk.css"
+    "revision": "46e48ce0628835f68a7369d0254e4283",
+    "url": "/portfolio-website/static/media/Roboto-Light.46e48ce0.ttf"
   },
   {
-    "revision": "dfac146b2c64104a1ad5cbefc2199ca7",
+    "revision": "06da400db0c0899f90bb",
+    "url": "/portfolio-website/static/css/1.cedfaa4c.chunk.css"
+  },
+  {
+    "revision": "b75249ad185a2364549e72b4dbaf993f",
     "url": "/portfolio-website/index.html"
   }
 ];
