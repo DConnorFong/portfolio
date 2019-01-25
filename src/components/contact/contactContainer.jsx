@@ -16,7 +16,7 @@ class ContactContainer extends Component {
             icon: 'fas fa-envelope',
             title: 'Email',
             value: 'dconnorfong@gmail.com',
-            link: 'dconnorfong@gmail.com'
+            link: ''
         },
         linkedin: {
             id: 3,
@@ -29,8 +29,8 @@ class ContactContainer extends Component {
             id: 4,
             icon: 'fas fa-desktop',
             title: 'Website',
-            value: 'dconnorfong.io',
-            link: 'dconnorfong.io'
+            value: 'dconnorfong.com',
+            link: 'https://dconnorfong.com'
         },
         github: {
             id: 5,
@@ -45,14 +45,12 @@ class ContactContainer extends Component {
         return (
             <React.Fragment> 
                 <div className="container site-contacts">
-                    <div className="row">
-                        <div className="col-lg-1"></div>
+                    <div className="row justify-content-around">
                         <div className="col-lg-2"><Contact key={1} contact={this.state.phone} /></div>
                         <div className="col-lg-2"><Contact key={2} contact={this.state.email} /></div>
                         <div className="col-lg-2"><Contact key={3} contact={this.state.linkedin} /></div>
                         <div className="col-lg-2"><Contact key={4} contact={this.state.website} /></div>
                         <div className="col-lg-2"><Contact key={5} contact={this.state.github} /></div>
-                        <div className="col-lg-1"></div>
                     </div>
                 </div>
             </React.Fragment>

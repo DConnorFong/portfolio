@@ -14,7 +14,7 @@ class Contact extends Component {
         return (
             <React.Fragment> 
                 <div className="container site-contact">
-                    <div className="row">
+                    <div className="row justify-content-center">
                         <a href={this.state.link} target="_blank" rel="noopener noreferrer">
                             {this.renderIcon()} 
                             <p>{this.state.value}</p>

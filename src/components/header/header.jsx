@@ -17,7 +17,7 @@ class Header extends Component {
                 <div id="site-header" className="container">
                     <div className="row">
                         <div className="col-lg-12">
-                            <h1>Connor Fong</h1>
+                            <h1><b>Connor Fong</b></h1>
                         </div>
                     </div>
                     <div className="row">

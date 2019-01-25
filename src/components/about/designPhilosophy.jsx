@@ -12,7 +12,7 @@ const DesignPhilosophy = () => {
                 </div>
                 <div className="col-lg-4 site-philosophy-item animated fadeInUp delay-2s">
                     <i class="far fa-comments site-icon-big"></i>
-                    <h5>Plan, Plan, Plan</h5>
+                    <h5>Put Your Heads Together</h5>
                 </div>
                 <div className="col-lg-4 site-philosophy-item animated fadeInUp delay-3s">
                     <i class="fas fa-basketball-ball site-icon-big"></i>
