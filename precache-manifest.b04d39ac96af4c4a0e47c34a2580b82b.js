@@ -44,12 +44,12 @@ self.__precacheManifest = [
     "url": "/portfolio-website/static/media/fa-regular-400.fc5252e5.woff"
   },
   {
-    "revision": "8e9f0ee6d016526776c27f91fea55cca",
-    "url": "/portfolio-website/static/media/fa-regular-400.8e9f0ee6.eot"
-  },
-  {
     "revision": "deb8619e67992d3fa088b5dcbb8cff36",
     "url": "/portfolio-website/static/media/fa-regular-400.deb8619e.ttf"
+  },
+  {
+    "revision": "8e9f0ee6d016526776c27f91fea55cca",
+    "url": "/portfolio-website/static/media/fa-regular-400.8e9f0ee6.eot"
   },
   {
     "revision": "b89c6c51aa2999159a6667f97a46a346",
@@ -172,12 +172,12 @@ self.__precacheManifest = [
     "url": "/portfolio-website/static/media/Roboto-Regular.df7b648c.ttf"
   },
   {
-    "revision": "894a2ede85a483bf9bedefd4db45cdb9",
-    "url": "/portfolio-website/static/media/Roboto-Medium.894a2ede.ttf"
-  },
-  {
     "revision": "46e48ce0628835f68a7369d0254e4283",
     "url": "/portfolio-website/static/media/Roboto-Light.46e48ce0.ttf"
+  },
+  {
+    "revision": "894a2ede85a483bf9bedefd4db45cdb9",
+    "url": "/portfolio-website/static/media/Roboto-Medium.894a2ede.ttf"
   },
   {
     "revision": "06da400db0c0899f90bb",
