@@ -2,7 +2,7 @@
   "name": "personal-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dconnorfong.github.io/",
+  "homepage": "https://dconnorfong.github.io/portfolio",
   "dependencies": {
     "animate.css": "^3.7.0",
     "bootstrap": "^4.2.1",
