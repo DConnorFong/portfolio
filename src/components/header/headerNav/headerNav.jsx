@@ -5,7 +5,7 @@ class App extends Component {
     render() {
         return (
             <React.Fragment>
-                <div className="container site-heading">
+                <div className="container site-heading-nav">
                     {this.renderHeaderNav()}
                 </div>
             </React.Fragment>
