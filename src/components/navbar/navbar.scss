@@ -1,0 +1,22 @@
+.navbar {
+    a {
+        font-family: montserrat;
+        font-weight: bold;
+    }
+
+    .navbar-brand {
+        a {
+            font-size: 30px;
+            padding: 5px 20px;
+        }
+    }
+    
+    .navbar-menu {
+        .navbar-end {
+            a {
+                font-size: 20px;
+                padding: 10px 20px;
+            }
+        }
+    }
+}

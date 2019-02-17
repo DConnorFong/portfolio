@@ -1,44 +1,17 @@
-import React, { Component } from 'react';
-import HeaderNav from './headerNav/headerNav';
+import React from 'react';
 import './header.scss';
 
-class Header extends Component {
-    state = {
-        navs: [
-            'About',
-            'Skills',
-            'Experience'
-        ]
-    };
-
-    render() {
-        return (
-            <React.Fragment>
-                <div id="site-header" className="container">
-                    <div className="row">
-                        <div className="col-lg-12">
-                            <h1><b>Connor Fong</b></h1>
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="col-lg-12">
-                            <h3>Software Developer</h3>
-                        </div>
-                    </div>
-                    <br />
-                    {this.renderNavs()}
-                    <br />
+const Header = () => {
+    return (  
+        <section id="header" className="hero is-large">
+            <div className="hero-body has-text-centered">
+                <div className="container">
+                    <h1 className="title">Full&nbsp;Stack Software&nbsp;Engineer</h1>
+                    <h3 className="subtitle">I develop client and server interfaces for features and applications.</h3>
                 </div>
-            </React.Fragment>
-        );
-    }
-
-    renderNavs() {
-        if (this.state.navs.length === 0) 
-            return <p>No navs provided</p>;
-        else
-            return <div className="row">{this.state.navs.map(nav => <div className="col-lg-4"><HeaderNav key={nav} nav={nav}/></div>)}</div>;
-    }
+            </div>
+        </section>
+    );
 }
-
+ 
 export default Header;
