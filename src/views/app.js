@@ -3,8 +3,12 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import 'animate.css/animate.min.css'
 import './app.scss';
 import 'bulma/css/bulma.min.css';
+import '@fortawesome/fontawesome-free/css/all.min.css'
 import Navbar from '../components/navbar/navbar';
 import Header from '../components/header/header';
+import About from '../components/about/about';
+import Projects from '../components/projects/projects';
+import Project from '../components/project/project';
 
 class App extends Component {
     render() {
@@ -12,15 +16,11 @@ class App extends Component {
             <React.Fragment>
                 <Navbar />
                 <Header />
-                <div id="about" className="container">
-                    <h1>About/Skills</h1>
-                </div>
+                <About />
                 <div className="container experience">
                     <h1>Experience</h1>
                 </div>
-                <div className="container projects">
-                    <h1>Projects</h1>
-                </div>
+                <Projects />
                 <div className="container contact">
                     <h1>Contact</h1>
                 </div>
@@ -38,6 +38,7 @@ class App extends Component {
                 <br />
                 <br />
                 <br />
+                <Project />
             </React.Fragment>
         );
     }

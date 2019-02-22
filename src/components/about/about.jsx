@@ -1,18 +1,19 @@
-import React, { Component } from 'react';
-import DesignPhilosophy from './designPhilosophy';
+import React from 'react';
 import './about.scss';
 
 const About = () => {
     return (
-        <div id="site-about" className="container animated fadeIn">
-            <span class="site-heading"><h3>Hey there!</h3></span>
-            <p>
-                My name is Connor Fong. I am currently a <span class="site-highlight">Computer&nbsp;Engineering</span> student at the <span class="site-highlight">University&nbsp;of&nbsp;British&nbsp;Columbia </span> 
-                as well as a <span class="site-highlight">Software&nbsp;Development&nbsp;Co-op</span> at <span class="site-highlight">PNI&nbsp;Digital&nbsp;Media</span>.
-                I specialize in <span class="site-highlight">Full-Stack&nbsp;Web&nbsp;Development</span> and strive to create excellent software and memorable applications every day.
-            </p>
-            <br />
-        </div>
+        <section id="about" className="section is-medium is-long">
+            <div className="container has-text-centered">
+                <h3>Hi, I'm Connor.</h3>
+                <br />
+                <p>
+                    Since beginning studies in engineering at the University of British Columbia in 2015, I have been avidly programming.
+                    I specialize in full-stack web applications and am fascinated with designing software that is elegantly simple for both the user and maintainer.
+                    With 8 months experience in freelance and a 12 months as a co-op developer, I look forward to tackling new challenges every day.                    
+                </p>
+            </div>
+        </section>
     );
 };
 

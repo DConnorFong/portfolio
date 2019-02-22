@@ -3,7 +3,7 @@ import React from 'react';
 const Date = (props) => {
     return (  
         <div className="date">
-            <h3>{props.dateObject.dateStart} - {props.dateObject.dateEnd}</h3>
+            <h3>{props.dateObject.dateStart}{props.dateObject.dateEnd === '' ? '' : ` - ${props.dateObject.dateEnd}`}</h3>
         </div>
     );
 }
