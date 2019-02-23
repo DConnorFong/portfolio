@@ -1,5 +1,10 @@
+$timeline-line: 2rem solid blue;
+
 body {
     // background: url("../assets/background.jpg");
+    min-height: 100vh;
+    max-height: 100%;
+
     h3 {
         font-family: montserrat;
         font-size: 40px;
@@ -14,6 +19,45 @@ body {
     .button {
         font-family: montserrat;
         font-size: 25px;
+
+        -o-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -moz-transition: 0.5s;
+        transition: 0.5s;
+    }
+
+    .github-button {
+        background-color: #333;
+        border-color: transparent;
+        color: #FFF;
+
+        -o-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -moz-transition: 0.5s;
+        transition: 0.5s;
+    }
+
+    .github-button:hover {
+        background-color: #FFF;
+        border-color: #333;
+        color: #333;
+    }
+
+    .linkedin-button {
+        background-color: #0077b5;
+        border-color: transparent;
+        color: #FFF;
+
+        -o-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -moz-transition: 0.5s;
+        transition: 0.5s;
+    }
+
+    .linkedin-button:hover {
+        background-color: #FFF;
+        border-color: #0077b5;
+        color: #0077b5;
     }
 }
 

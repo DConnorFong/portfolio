@@ -3,7 +3,13 @@ import './project.scss';
 
 class Project extends Component {
     state = {  
-        hover: false
+        hover: false,
+        projectTitle: this.props.project.projectTitle,
+        dateObject: this.props.project.dateObject,
+        projectAward: this.props.project.projectAward,
+        projectDescription: this.props.project.projectDescription,
+        skills: this.props.project.skills,
+        githubLink: this.props.project.githubLink
     }
 
     handleMouseEnter = () => {

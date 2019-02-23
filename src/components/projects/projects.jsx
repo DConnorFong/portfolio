@@ -11,31 +11,39 @@ class Projects extends Component {
                     dateStart: 'September 2018',
                     dateEnd: ''
                 },
+                projectAward: 'Top 15',
                 projectDescription: 'Senti is a Google Chrome Extension that utilizes computer vision technology to record the emotional impact of various websites. The app aims to promote a mentally-healthy browsing experience.',
                 skills: [
                     'HTML', 'CSS', 'Javascript'
                 ],
                 githubLink: "/"
             },
-            {},
-            {},
-            {},
-            {},
-            {},
-            {}
+            {
+                projectTitle: 'sPARTYfy - nwHacks 2019, Western Canada\'s Largest Hackathon',
+                dateObject: {
+                    dateStart: 'January 2018',
+                    dateEnd: ''
+                },
+                projectAward: 'Top 20',
+                projectDescription: 'Senti is a Google Chrome Extension that utilizes computer vision technology to record the emotional impact of various websites. The app aims to promote a mentally-healthy browsing experience.',
+                skills: [
+                    'HTML', 'CSS', 'React', 'Bootstrap', 'Node.js'
+                ],
+                githubLink: "/"
+            }
         ]
 
     }
 
     render() { 
         return (  
-            <section id="projects" className="section is-medium is-long">
+            <section id="projects" className="section is-long">
                 <div className="container is-fluid has-text-centered">
                     <h3>Projects</h3>
                     <h5>Here are some things that I've worked on.</h5>
                     {this.renderProjects()}
-                    <a className="button is-rounded is-info" href="https://github.com/DConnorFong" target="_blank" rel="noopener noreferrer">
-                        <span class="icon"><i class="fab fa-lg fa-github"></i></span>
+                    <a className="button is-rounded github-button" href="https://github.com/DConnorFong" target="_blank" rel="noopener noreferrer">
+                        <span className="icon"><i className="fab fa-lg fa-github"></i></span>
                         &nbsp;&nbsp;
                         See more on GitHub
                     </a>
@@ -47,7 +55,7 @@ class Projects extends Component {
     renderProjects() {
         return (
             <div className="columns is-multiline is-mobile">
-                {this.state.projects.map(project => <div className="column is-12-mobile is-6-tablet is-4-widescreen"><Project /></div>)}
+                {this.state.projects.map(project => <div className="column is-12-mobile is-6-tablet is-4-widescreen"><Project project={project}/></div>)}
             </div>
         )
     }
