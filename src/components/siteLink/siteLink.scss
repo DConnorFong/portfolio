@@ -1,0 +1,36 @@
+.button {
+    background-color: #333;
+    border-color: transparent;
+    color: #FFF;
+    font-family: montserrat;
+    font-size: 25px;
+
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -moz-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.github {
+    background-color: #333;
+}
+
+.linkedin {
+    background-color: #0077b5;
+}
+
+.button:hover {
+    background-color: #FFF;
+    border-color: #333;
+    color: #333;
+}
+
+.github:hover {
+    border-color: #333;
+    color: #333;
+}
+
+.linkedin:hover {
+    border-color: #0077b5;
+    color: #0077b5;
+}

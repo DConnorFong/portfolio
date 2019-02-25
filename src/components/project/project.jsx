@@ -23,9 +23,7 @@ class Project extends Component {
     render() { 
         return ( 
             <div onMouseEnter={this.handleMouseEnter} onMouseLeave={this.handleMouseLeave} className="card project">
-                <div className="card-content">
-                    {this.renderProject()}
-                </div>
+                {this.renderProject()}
             </div>    
         );
     }
@@ -33,12 +31,12 @@ class Project extends Component {
     renderProject() {
         if (this.state.hover)
             return (
-                <h1>Is Hovered</h1>
+                <div className="card-content">
+                    <h5>{this.state.projectTitle}</h5>
+                </div>
             )
         else
-            return (
-                <h1>Is NOT Hovered</h1>
-            )
+            return null
     }
 }
  

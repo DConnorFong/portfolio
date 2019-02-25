@@ -10,14 +10,15 @@ class Experience extends Component {
  *
  */    
     state = { 
-        /*
         companyTitle: this.props.experienceObject.companyTitle,
         jobTitle: this.props.experienceObject.jobTitle,
         imageUrl: this.props.experienceObject.imageUrl,
-        dateObject: this.props.experienceObject.dateObject,
-        description: this.props.experienceObject.description,
-        skillList: this.props.experienceObject.skillList
-        */
+        companyDescription: this.props.experienceObject.companyDescription,
+        jobDescriptions: this.props.experienceObject.jobDescriptions,
+        dateObject: this.props.experienceObject.dateObject
+        
+        /* Example format for an incoming experienceObject
+
         companyTitle: 'PNI Digital Media',
         jobTitle: 'Junior Developer (Co-op)',
         imageUrl: 'pni.jpg',
@@ -38,14 +39,15 @@ class Experience extends Component {
             dateStart: 'May 2018', 
             dateEnd: 'April 2019'
         }
+        */
     }
 
     render() { 
         return (
             <div className="card experience">
                 <div className="card-content">
-                    <div className="columns">
-                        <div className="column is-4">
+                    <div className="columns is-mobile">
+                        <div className="column is-4 icon-experience">
                             <img src={require(`../../assets/${this.state.imageUrl}`)} alt={`A ${this.state.companyTitle} logo`} />
                         </div>
                         <div className="column is-8">

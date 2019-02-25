@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './projects.scss';
 import Project from '../project/project';
+import SiteLink from '../siteLink/siteLink';
 
 class Projects extends Component {
     state = { 
@@ -42,11 +43,7 @@ class Projects extends Component {
                     <h3>Projects</h3>
                     <h5>Here are some things that I've worked on.</h5>
                     {this.renderProjects()}
-                    <a className="button is-rounded github-button" href="https://github.com/DConnorFong" target="_blank" rel="noopener noreferrer">
-                        <span className="icon"><i className="fab fa-lg fa-github"></i></span>
-                        &nbsp;&nbsp;
-                        See more on GitHub
-                    </a>
+                    <SiteLink siteKey={'github'} siteUrl={'https://github.com/DConnorFong'} siteText={'See more on GitHub'} />
                 </div>
             </section>
         );

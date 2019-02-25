@@ -1,5 +1,23 @@
 #experiences {
     .timeline {
         padding: 10vh 0px;
+    } 
+
+    #desktop-timeline {
+        display: unset;
+    }
+
+    #mobile-timeline {
+        display: none;
+    }
+
+    @media only screen and (max-width: 769px) {
+        #desktop-timeline {
+            display: none;
+        }
+
+        #mobile-timeline {
+            display: unset;
+        }
     }
 }

@@ -1,8 +1,18 @@
 .project {
+    background-color: blue;
     border-radius: 20px;
     height: 30vh;
+
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -moz-transition: 0.5s;
+    transition: 0.5s;
 
     @media only screen and (max-width: 769px) {
         height: 40vh;
     }
+}
+
+.project:hover {
+    background-color: lightblue;
 }
