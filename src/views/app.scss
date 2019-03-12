@@ -16,81 +16,9 @@ body {
         font-size: 25px;
     }
 
-    /*
-    .button {
-        font-family: montserrat;
-        font-size: 25px;
-
-        -o-transition: 0.5s;
-        -ms-transition: 0.5s;
-        -moz-transition: 0.5s;
-        transition: 0.5s;
-    }
-
-    .github-button {
-        background-color: #333;
-        border-color: transparent;
-        color: #FFF;
-
-        -o-transition: 0.5s;
-        -ms-transition: 0.5s;
-        -moz-transition: 0.5s;
-        transition: 0.5s;
-    }
-
-    .github-button:hover {
-        background-color: #FFF;
-        border-color: #333;
-        color: #333;
-    }
-
-    .linkedin-button {
-        background-color: #0077b5;
-        border-color: transparent;
-        color: #FFF;
-
-        -o-transition: 0.5s;
-        -ms-transition: 0.5s;
-        -moz-transition: 0.5s;
-        transition: 0.5s;
-    }
-
-    .linkedin-button:hover {
-        background-color: #FFF;
-        border-color: #0077b5;
-        color: #0077b5;
-    }
-    */
-}
-
-#site-content {
-    background: rgba(0, 0, 0, 0.8) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    min-height: 100vh;
-    max-height: 100%;
-    /*
-    @media only screen and (max-width: 991px) {
-        height: 100%;
-    }
-    */
-}
-
-p {
-    .site-highlight {
-        color: #2bbbad;
-    }
-}
-
-
-.site-heading {
-    h3 {
-        border: 3px solid white;
-        border-radius: 10px;
-        color: white;
-        display: inline;
-        padding: 10px;
+    @media only screen and (max-width: 769px) {
+        h5 {
+            font-size: 20px;
+        }
     }
 }

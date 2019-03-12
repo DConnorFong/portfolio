@@ -7,20 +7,7 @@ class Projects extends Component {
     state = { 
         projects: [
             {
-                projectTitle: 'Senti - Lumohacks 2018, Hackathon for Mental Health',
-                dateObject: {
-                    dateStart: 'September 2018',
-                    dateEnd: ''
-                },
-                projectAward: 'Top 15',
-                projectDescription: 'Senti is a Google Chrome Extension that utilizes computer vision technology to record the emotional impact of various websites. The app aims to promote a mentally-healthy browsing experience.',
-                skills: [
-                    'HTML', 'CSS', 'Javascript'
-                ],
-                githubLink: "/"
-            },
-            {
-                projectTitle: 'sPARTYfy - nwHacks 2019, Western Canada\'s Largest Hackathon',
+                projectTitle: 'sPARTYfy - MLH nwHacks 2019',
                 dateObject: {
                     dateStart: 'January 2018',
                     dateEnd: ''
@@ -29,6 +16,19 @@ class Projects extends Component {
                 projectDescription: 'Senti is a Google Chrome Extension that utilizes computer vision technology to record the emotional impact of various websites. The app aims to promote a mentally-healthy browsing experience.',
                 skills: [
                     'HTML', 'CSS', 'React', 'Bootstrap', 'Node.js'
+                ],
+                githubLink: "/"
+            },
+            {
+                projectTitle: 'Senti - MLH Lumohacks 2018',
+                dateObject: {
+                    dateStart: 'September 2018',
+                    dateEnd: ''
+                },
+                projectAward: 'Top 15',
+                projectDescription: 'Senti is a Google Chrome Extension that utilizes computer vision technology to record the emotional impact of various websites. The app aims to promote a mentally-healthy browsing experience.',
+                skills: [
+                    'HTML', 'CSS', 'Javascript'
                 ],
                 githubLink: "/"
             }

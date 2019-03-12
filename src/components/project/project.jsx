@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Date from '../date/date';
+import GithubLink from '../githubLink/githubLink';
 import './project.scss';
 
 class Project extends Component {
@@ -31,12 +33,52 @@ class Project extends Component {
     renderProject() {
         if (this.state.hover)
             return (
-                <div className="card-content">
-                    <h5>{this.state.projectTitle}</h5>
-                </div>
+                <React.Fragment>
+                    <div className="card-content">
+                        <div className="columns is-mobile">
+                            <div className="column is-10">
+                                <p>{this.state.projectTitle}</p>
+                            </div>
+                            <div className="column is-2">
+                                <p>Test</p>
+                            </div>
+                        </div>
+                        <p>{this.state.projectDescription}</p>
+                        <div className="columns is-mobile">
+                            <div className="column is-10">
+                                <p>{this.state.projectTitle}</p>
+                            </div>
+                            <div className="column is-2">
+                                <p>Test</p>
+                            </div>
+                        </div>
+                    </div>
+               </React.Fragment>
             )
         else
-            return null
+            return (
+                <React.Fragment>
+                    <div className="card-content">
+                        <div className="columns is-mobile">
+                            <div className="column is-10">
+                                <h6>{this.state.projectTitle}</h6>
+                            </div>
+                            <div className="column is-2">
+                                <h6>Test</h6>
+                            </div>
+                        </div>
+                        <p>{this.state.projectDescription}</p>
+                        <div className="columns is-mobile">
+                            <div className="column is-10">
+                                <h6>{this.state.projectTitle}</h6>
+                            </div>
+                            <div className="column is-2">
+                                <h6>Test</h6>
+                            </div>
+                        </div>
+                    </div>
+               </React.Fragment>
+            )
     }
 }
  
