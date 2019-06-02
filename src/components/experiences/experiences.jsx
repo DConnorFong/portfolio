@@ -10,11 +10,22 @@ class Experiences extends Component {
                 companyTitle: 'Xperiel',
                 jobTitle: 'Software Engineer (Co-op)',
                 imageUrl: 'xperiel.png',
-                companyDescription: 'Xperiel is an IoT networking platform that allows businesses to create seamless and engaging customer experiences.',
-                jobDescriptions: [],
+                companyDescription: 'Xperiel is an internet of things and augmented reality platform that brings immersive cloud-based applications to clients such as PepsiCo, Sacramento Kings, and New York Jets.',
+                jobDescriptions: [
+                    {
+                        icon: 'fas fa-exclamation-triangle',
+                        summary: 'Testing Frameworks',
+                        description: 'Developed a new device testing framework to simplify test writing and optimize error detection'
+                    },
+                    {
+                        icon: 'fas fa-tachometer-alt',
+                        summary: 'Web Dashboard',
+                        description: 'Added functionality to a user dashboard to provide clients with more insight on their applications'
+                    }
+                ],
                 dateObject: {
-                    dateStart: 'Incoming May 2019', 
-                    dateEnd: ''
+                    dateStart: 'May 2019', 
+                    dateEnd: 'Present'
                 }
             },
             {
@@ -25,11 +36,11 @@ class Experiences extends Component {
                 jobDescriptions: [
                     { 
                         icon: 'fas fa-server',
-                        summary: 'Full-Stack Implementation',
-                        description: 'Ensured that online services were constantly available for 60 million active users'
+                        summary: 'Full-Stack Development',
+                        description: 'Developed a ReactJS and NodeJS internship web application to allow students to find a large volume of workplace opportunities quickly'
                     },
                     {
-                        icon: 'far fa-map',
+                        icon: 'fas fa-running',
                         summary: 'AGILE',
                         description: 'Designing sprints and delegating tickets to ensure that the project followed tangible and achievable deadlines'
                     }
@@ -58,7 +69,7 @@ class Experiences extends Component {
                 ],
                 dateObject: {
                     dateStart: 'May 2018', 
-                    dateEnd: 'April 2019'
+                    dateEnd: 'May 2019'
                 }
             },
             {
@@ -68,14 +79,14 @@ class Experiences extends Component {
                 companyDescription: 'UBC Concrete Toboggan is an student engineering design team that competes in the annual Great Northern Concrete Toboggan Race (GNCTR).',
                 jobDescriptions: [
                     { 
-                        icon: 'fab fa-cogs',
-                        summary: 'Operations Development',
-                        description: 'Ensured that online services were constantly available for 60 million active users'
+                        icon: 'fas fa-tasks',
+                        summary: 'Team Management',
+                        description: 'Organized meetings and assigned tasks to team members '
                     },
                     {
-                        icon: 'fas fa-tools',
+                        icon: 'fas fa-car-battery',
                         summary: 'Circuit Design & Programming',
-                        description: 'Utilized SQL stored-procedures to eliminate 5-10 hours of manual development/testing per week'
+                        description: 'Designed a sensor data-logging system to capture force, and acceleration metrics'
                     }
                 ],
                 dateObject: {
@@ -90,7 +101,7 @@ class Experiences extends Component {
                 companyDescription: 'MindfulGarden is an interactive digital health platform that aims to de-escalate anxiety and aggression in hospitalized patients experiencing delirium and dementia.',
                 jobDescriptions: [
                     { 
-                        icon: 'fab fa-cogs',
+                        icon: 'fas fa-pen-square',
                         summary: 'Proof of Concept',
                         description: 'Rapidly developed application software and user interfaces for clinical testing and investor demos'
                     },
@@ -126,8 +137,8 @@ class Experiences extends Component {
                 <div id="desktop-timeline">
                     <div className="timeline is-centered">
                         {experienceObjects.map(experienceObject => 
-                            <div className="timeline-item is-info">
-                                <div className="timeline-marker is-info is-icon"></div>
+                            <div className="timeline-item is-white">
+                                <div className="timeline-marker is-white is-icon"></div>
                                 <div className="timeline-content">
                                     <Experience experienceObject={experienceObject} />
                                 </div>

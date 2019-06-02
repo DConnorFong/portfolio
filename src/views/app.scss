@@ -7,18 +7,30 @@ body {
 
     h3 {
         font-family: montserrat;
-        font-size: 40px;
+        font-size: 60px;
         font-weight: bold;
     }
 
     h5 {
         font-family: montserrat;
-        font-size: 25px;
+        font-size: 30px;
+    }
+
+    .section {
+        padding: 200px 10px;
     }
 
     @media only screen and (max-width: 769px) {
+        h3 {
+            font-size: 40px;
+        }
+
         h5 {
             font-size: 20px;
+        }
+
+        .section {
+            padding: 100px 10px;
         }
     }
 }

@@ -6,8 +6,15 @@ const Header = () => {
         <section id="header" className="hero is-fullheight-with-navbar">
             <div className="hero-body">
                 <div className="container has-text-centered">
-                    <h1 className="title">Full&nbsp;Stack Software&nbsp;Engineer</h1>
-                    <h3 className="subtitle">I develop client and server interfaces for features and applications.</h3>
+                    <div className="columns">
+                        <div className="column">
+                            <img src={require('../../assets/about.jpg')} alt={'Connor Fong headshot'} />
+                        </div>
+                        <div className="column">
+                            <h1 className="title">Connor Fong</h1>
+                            <h3 className="subtitle">Software Engineer - Vancouver / Bay Area</h3>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
