@@ -7,7 +7,7 @@
   "static/js/1.68745e51.chunk.js.map": "/static/js/1.68745e51.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
   "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
-  "static/media/mdb.css": "/static/media/Roboto-Bold.e31fcf18.ttf",
+  "static/media/mdb.css": "/static/media/Roboto-Thin.94998475.ttf",
   "static/media/background.jpg": "/static/media/background.3c86c1a2.jpg",
   "static/media/mindful-garden.jpg": "/static/media/mindful-garden.6f609542.jpg",
   "static/media/pni.jpg": "/static/media/pni.b37b64ff.jpg",
@@ -16,6 +16,6 @@
   "static/css/main.6a7b91d5.chunk.css.map": "/static/css/main.6a7b91d5.chunk.css.map",
   "static/css/1.626857a4.chunk.css.map": "/static/css/1.626857a4.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.f0c9c72d1d21c99e40169566e52fcecd.js": "/precache-manifest.f0c9c72d1d21c99e40169566e52fcecd.js",
+  "precache-manifest.baf4957278a6d70ffde198b63ea8b052.js": "/precache-manifest.baf4957278a6d70ffde198b63ea8b052.js",
   "service-worker.js": "/service-worker.js"
 }
