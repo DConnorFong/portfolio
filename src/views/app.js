@@ -10,12 +10,13 @@ import Header from '../components/header/header';
 import About from '../components/about/about';
 import Experiences from '../components/experiences/experiences';
 import Projects from '../components/projects/projects';
+import Footer from '../components/footer/footer';
 
 class App extends Component {
     render() {
         return (
             <React.Fragment>
-                <Navbar />
+                {/*<Navbar />*/}
                 <Header />
                 <About />
                 <Experiences />
@@ -23,9 +24,7 @@ class App extends Component {
                 <div className="container contact">
                     <h1>Contact</h1>
                 </div>
-                <footer className="footer">
-                    <h1>Footer</h1>
-                </footer>
+                <Footer />
             </React.Fragment>
         );
     }
