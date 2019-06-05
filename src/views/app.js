@@ -10,6 +10,7 @@ import Header from '../components/header/header';
 import About from '../components/about/about';
 import Experiences from '../components/experiences/experiences';
 import Projects from '../components/projects/projects';
+import Contact from '../components/contact/contact';
 import Footer from '../components/footer/footer';
 
 class App extends Component {
@@ -21,9 +22,7 @@ class App extends Component {
                 <About />
                 <Experiences />
                 <Projects />
-                <div className="container contact">
-                    <h1>Contact</h1>
-                </div>
+                <Contact />
                 <Footer />
             </React.Fragment>
         );

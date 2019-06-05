@@ -1,8 +1,40 @@
 $blue: #3273dc;
 
 #about {
-    background-color: $blue;
-    color: white;
+    background-color: white;
+    color: #4a4a4a;
+    font-family: nunito;
+
+    h1 {
+        font-family: montserrat;
+        font-size: 60px;
+        font-weight: bold;
+    }
+
+    h2 {
+        font-family: montserrat;
+        font-size: 30px;
+    }
+
+    h3 {
+        font-family: montserrat;
+        font-size: 25px;
+    }
+
+    .card {
+        background-color: #48a9c5;
+        border-radius: 30px 0px;
+        color: white;
+        height: 100%;
+        margin: 0px 30px;
+        
+        padding: 20px 50px;
+
+        p {
+            font-size: 25px;
+        }
+        
+    }
 
     img {
         border-radius: 200px;
@@ -12,25 +44,10 @@ $blue: #3273dc;
 
     .container {
         // padding: 100px 50px;
-        h3 {
-            font-family: montserrat;
-            font-size: 60px;
-            font-weight: bold;
-        }
-
-        p {
-            font-family: nunito;
-            font-size: 30px;
-            // height: 100%;
-            // vertical-align: middle;
-            //display: flex;
-            //align-items: center;
-        
-        }
 
         .columns {
-            display: flex;
-            align-items: center;
+            padding: 10vh 0px;
+
         }
 
         .icon {

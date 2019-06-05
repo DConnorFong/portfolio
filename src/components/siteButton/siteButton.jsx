@@ -4,14 +4,14 @@ import './siteButton.scss';
 const SiteButton = (props) => {
 /*
  *  Prop Arguments:
- *  siteKey:    string | (github, linkedin)
+*   siteIcon:   string | (fab fa-github, fab fa-linkedin)
  *  siteUrl:    string
  */ 
 
     return (  
         <span className="site-button">
             <a className={`site-button button is-rounded`} href={props.siteUrl} target="_blank" rel="noopener noreferrer">
-                <span class="icon"><i class={`fab fa-lg fa-${props.siteKey}`}></i></span>
+                <span class="icon"><i class={`fa-lg ${props.siteIcon}`}></i></span>
             </a>
         </span>
     );
