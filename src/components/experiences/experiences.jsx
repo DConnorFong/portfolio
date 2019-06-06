@@ -149,8 +149,8 @@ class Experiences extends Component {
                 <div id="mobile-timeline">
                     <div className="timeline">
                         {experienceObjects.map(experienceObject => 
-                            <div className="timeline-item is-info">
-                                <div className="timeline-marker is-info is-icon"></div>
+                            <div className="timeline-item s-white">
+                                <div className="timeline-marker is-white is-icon"></div>
                                 <div className="timeline-content">
                                     <Experience experienceObject={experienceObject} />
                                 </div>

@@ -1,5 +1,6 @@
 import React from 'react';
 import './header.scss';
+import 'animate.css';
 
 const Header = () => {
     return (  
@@ -17,10 +18,9 @@ const Header = () => {
                         </div>
                     </div>
                     */}
-                    <h1 className="title">Connor Fong</h1>
-                    <img src={require('../../assets/about.jpg')} alt={'Connor Fong headshot'} />
-                    <h2>Software Engineer</h2>
-                    <h3>San Francisco Bay Area</h3>
+                    <h1 className="animated fadeInDown delay-1s">Connor Fong</h1>
+                    <hr className="animated fadeInLeft delay-2s"/>
+                    <h2 className="animated fadeInUp delay-1s">Software Engineer</h2>
                 </div>
             </div>
         </section>

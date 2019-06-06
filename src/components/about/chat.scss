@@ -74,14 +74,24 @@
     }
 
     @media only screen and (max-width: 769px) {
+        p {
+            padding: 10px 20px;
+        }
+
         .chat-bubble {
             border-radius: 30px;
             font-size: 15px;
-            max-width: 300px;
+            max-width: 350px;
         }
 
         .chat-delivered {
             font-size: 10px;
+        }
+    }
+
+    @media only screen and (max-width: 500px) {
+        .chat-bubble {
+            max-width: 250px;
         }
     }
 }

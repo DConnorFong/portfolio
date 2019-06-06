@@ -22,24 +22,30 @@ $blue: #3273dc;
     }
 
     .card {
-        background-color: #48a9c5;
-        border-radius: 30px 0px;
+        border-radius: 30px;
         color: white;
         height: 100%;
-        margin: 0px 30px;
+        margin: 0px 20px;
         
-        padding: 20px 50px;
+        padding: 20px 40px;
 
         p {
             font-size: 25px;
+            padding: 5px 0px;
         }
         
     }
 
-    img {
-        border-radius: 200px;
-        height: 400px;
-        width: 400px;
+    .frameworks {
+        background-color: #bf0d3e;
+    }
+
+    .languages {
+        background-color: #910048;
+    }
+
+    .tools {
+        background-color: #d0006f;
     }
 
     .container {
@@ -53,10 +59,10 @@ $blue: #3273dc;
         .icon {
             margin: 25px;
             padding: 75px;
-            border: 10px solid white;
+            border: 2px solid white;
             border-radius: 100px;
             i {
-                font-size: 100px;
+                font-size: 75px;
             }
         }
 
@@ -74,7 +80,6 @@ $blue: #3273dc;
 
             p {
                 font-size: 20px; 
-                // padding: 0px 20px;
             }
 
             .columns {

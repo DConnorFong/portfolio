@@ -1,23 +1,24 @@
 $blue: #3273dc;
 
 .hero {
-    background: url('../../assets/background-1.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url('../../assets/background-2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 
     .hero-body {
+        color: white;   
         min-height: 100vh;
 
         h1 {
+            color: white;
             font-family: montserrat;
             font-size: 100px;
-            font-weight: bold;    
-            color: white;    
+            font-weight: bold;      
         }
         
         h2 {
-            font-family: nunito;
+            font-family: montserrat;
             font-size: 60px;
         }
 
@@ -36,6 +37,11 @@ $blue: #3273dc;
             h1 {
                 font-size: 30px;
             }
+
+            h2 {
+                font-size: 20px;
+            }
+
             h3 {
                 font-size: 20px; 
             }

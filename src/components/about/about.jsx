@@ -7,11 +7,12 @@ const About = () => {
         <section id="about" className="section">
             <div className="container has-text-centered">
                 <h1>Hey there!</h1>
+                <h2>My name is Connor.</h2>
                 <br />
                 <div className="columns">
                     <div className="chat">
                         <div className="chat-bubble me">
-                            <p>I'm Connor, nice to meet you.</p>
+                            <p>Nice to meet you.</p>
                         </div>
                         <br />
                         <br />
@@ -33,33 +34,38 @@ const About = () => {
                 <br />
                 <div className="columns">
                     <div className="column is-third is-full-mobile">
-                        <div className="card">
+                        <div className="card frameworks">
+                            <span className="icon"><i className="fas fa-crop"></i></span>
                             <h3>Frameworks</h3>
-                            <span className="icon"><i className="fas fa-globe-americas"></i></span>
-                            <p>HTML</p>
-                            <p>CSS/Sass</p>
+                            <hr />
                             <p>Bootstrap</p>
                             <p>Bulma</p>
                             <p>ReactJS</p>
                             <p>NodeJS + Express</p>
                             <p>.NET</p>
+                            <p>Sequelize</p>
+                            <p>Unity Engine</p>
                         </div>
                     </div>
                     <div className="column is-third is-full-mobile">
-                        <div className="card">
+                        <div className="card languages">
+                            <span className="icon"><i className="fas fa-laptop-code"></i></span>
                             <h3>Languages</h3>
-                            <span className="icon"><i className="fas fa-code"></i></span>
+                            <hr />
+                            <p>HTML</p>
+                            <p>CSS/Sass</p>
                             <p>Java</p>
                             <p>JavaScript</p>
                             <p>C/C++</p>
                             <p>C#</p>
-                            <p>SQL</p>
+                            <p>SQL/NoSQL</p>
                         </div>
                     </div>
                     <div className="column is-third is-full-mobile">
-                        <div className="card">
-                            <h3>Tools</h3>
+                        <div className="card tools">
                             <span className="icon"><i className="fas fa-wrench"></i></span>
+                            <h3>Tools</h3>
+                            <hr />
                             <p>Docker</p>
                             <p>Robo3T</p>
                             <p>Postman</p>
