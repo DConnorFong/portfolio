@@ -60,7 +60,7 @@ class Experience extends Component {
                     <p>{this.state.companyDescription}</p>
                     <br/>
                     {this.renderJobDescriptions(this.state.jobDescriptions)}
-                    <Date dateObject={this.state.dateObject} />
+                    <p><b><Date dateObject={this.state.dateObject} /></b></p>
                 </div>
             </div>
         )

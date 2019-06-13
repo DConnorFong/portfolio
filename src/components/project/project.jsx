@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import Date from '../date/date';
 import GithubLink from '../githubLink/githubLink';
+import SiteButton from '../siteButton/siteButton';
 import './project.scss';
+import img_ from '../../assets/background-1.jpg';
 
 class Project extends Component {
     state = {  
-        hover: false,
+        id: this.props.project.id,
         projectTitle: this.props.project.projectTitle,
         dateObject: this.props.project.dateObject,
         projectAward: this.props.project.projectAward,
@@ -14,71 +16,21 @@ class Project extends Component {
         githubLink: this.props.project.githubLink
     }
 
-    handleMouseEnter = () => {
-        this.setState({hover: true});
-    }
-
-    handleMouseLeave = () => {
-        this.setState({hover: false});
-    }
-
     render() { 
         return ( 
-            <div onMouseEnter={this.handleMouseEnter} onMouseLeave={this.handleMouseLeave} className="card project">
-                {this.renderProject()}
-            </div>    
+            <div className="project">
+                <div id={this.state.id} className="card">
+                    <div className="card-content content">
+                        <h1>{this.state.projectTitle}</h1>
+                        <p>{this.state.projectDescription}</p>
+                            <div className="project-footer">
+                                <span className="project-date"><Date dateObject={this.state.dateObject} /></span>
+                                <SiteButton siteIcon={'fas fa-code'} siteUrl={this.state.githubLink} />
+                            </div>
+                    </div>
+                </div>
+            </div>
         );
-    }
-
-    renderProject() {
-        if (this.state.hover)
-            return (
-                <React.Fragment>
-                    <div className="card-content">
-                        <div className="columns is-mobile">
-                            <div className="column is-10">
-                                <p>{this.state.projectTitle}</p>
-                            </div>
-                            <div className="column is-2">
-                                <p>Test</p>
-                            </div>
-                        </div>
-                        <p>{this.state.projectDescription}</p>
-                        <div className="columns is-mobile">
-                            <div className="column is-10">
-                                <p>{this.state.projectTitle}</p>
-                            </div>
-                            <div className="column is-2">
-                                <p>Test</p>
-                            </div>
-                        </div>
-                    </div>
-               </React.Fragment>
-            )
-        else
-            return (
-                <React.Fragment>
-                    <div className="card-content">
-                        <div className="columns is-mobile">
-                            <div className="column is-10">
-                                <h6>{this.state.projectTitle}</h6>
-                            </div>
-                            <div className="column is-2">
-                                <h6>Test</h6>
-                            </div>
-                        </div>
-                        <p>{this.state.projectDescription}</p>
-                        <div className="columns is-mobile">
-                            <div className="column is-10">
-                                <h6>{this.state.projectTitle}</h6>
-                            </div>
-                            <div className="column is-2">
-                                <h6>Test</h6>
-                            </div>
-                        </div>
-                    </div>
-               </React.Fragment>
-            )
     }
 }
  

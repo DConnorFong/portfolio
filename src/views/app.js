@@ -27,6 +27,10 @@ class App extends Component {
             </React.Fragment>
         );
     }
+
+    componentDidMount() {
+        //alert("HELLO");
+    }
 }
 
 export default App;

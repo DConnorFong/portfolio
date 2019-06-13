@@ -7,9 +7,31 @@ class Projects extends Component {
     state = { 
         projects: [
             {
-                projectTitle: 'sPARTYfy - MLH nwHacks 2019',
+                id: 'portfolio-website',
+                projectTitle: 'Portfolio Website',
                 dateObject: {
-                    dateStart: 'January 2018',
+                    dateStart: 'June 2019',
+                    dateEnd: ''
+                },
+                projectDescription: 'Senti is a Google Chrome Extension that utilizes computer vision technology to record the emotional impact of various websites. The app aims to promote a mentally-healthy browsing experience.',
+                githubLink: "/"
+            },
+            {
+                id: 'internado',
+                projectTitle: 'Internado',
+                dateObject: {
+                    dateStart: 'April 2019',
+                    dateEnd: ''
+                },
+                projectAward: 'Top 15',
+                projectDescription: 'Senti is a Google Chrome Extension that utilizes computer vision technology to record the emotional impact of various websites. The app aims to promote a mentally-healthy browsing experience.',
+                githubLink: "https://github.com/ubclaunchpad/Internado"
+            },
+            {
+                id: 'spartyfy',
+                projectTitle: 'sPARTYfy',
+                dateObject: {
+                    dateStart: 'January 2019',
                     dateEnd: ''
                 },
                 projectAward: 'Top 20',
@@ -20,18 +42,27 @@ class Projects extends Component {
                 githubLink: "/"
             },
             {
-                projectTitle: 'Senti - MLH Lumohacks 2018',
+                id: 'senti', 
+                projectTitle: 'Senti',
                 dateObject: {
                     dateStart: 'September 2018',
                     dateEnd: ''
                 },
                 projectAward: 'Top 15',
                 projectDescription: 'Senti is a Google Chrome Extension that utilizes computer vision technology to record the emotional impact of various websites. The app aims to promote a mentally-healthy browsing experience.',
-                skills: [
-                    'HTML', 'CSS', 'Javascript'
-                ],
                 githubLink: "/"
-            }
+            },
+            {
+                id: 'yelp-clone', 
+                projectTitle: 'Yelp Clone',
+                dateObject: {
+                    dateStart: 'December 2017',
+                    dateEnd: ''
+                },
+                projectAward: 'Top 15',
+                projectDescription: 'Senti is a Google Chrome Extension that utilizes computer vision technology to record the emotional impact of various websites. The app aims to promote a mentally-healthy browsing experience.',
+                githubLink: "/"
+            },
         ]
 
     }
@@ -51,7 +82,7 @@ class Projects extends Component {
 
     renderProjects() {
         return (
-            <div className="columns is-multiline is-mobile">
+            <div className="project-content columns is-multiline is-mobile">
                 {this.state.projects.map(project => <div className="column is-12-mobile is-6-tablet is-4-widescreen"><Project project={project}/></div>)}
             </div>
         )
