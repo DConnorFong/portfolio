@@ -6,9 +6,9 @@ const Footer = () => {
     return ( 
         <footer className="footer has-text-centered">
             <div>
-                <SiteButton siteIcon={'fab fa-github'} siteUrl={'https://www.linkedin.com/in/connor-fong/'} />
-                <SiteButton siteIcon={'fab fa-linkedin-in'} siteUrl={'https://www.linkedin.com/in/connor-fong/'} />
-                <SiteButton siteIcon={'fas fa-desktop'} siteUrl={'https://www.linkedin.com/in/connor-fong/'} />
+                <SiteButton siteIcon={'fab fa-github'} siteUrl={'https://github.com/DConnorFong'} />
+                <SiteButton siteIcon={'fab fa-linkedin-in'} siteUrl={'https://www.linkedin.com/in/connor-fong'} />
+                <SiteButton siteIcon={'fas fa-desktop'} siteUrl={'https://dconnorfong.com'} />
             </div>
             <hr />
             <br />

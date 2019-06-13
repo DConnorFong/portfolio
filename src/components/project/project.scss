@@ -1,38 +1,47 @@
 .project {
+    min-height: 380px;
+    height: 100%;
     .card {
-        //background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../../assets/experience-background.jpg') center center;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
         border-radius: 30px;
         color: white;
+        height: 100%;
         text-align: left;
 
-        h1 {
-            font-size: 30px;
-        }
-
-        h2, .project-date {
-            font-size: 20px;
-        }
-
-        h1, h2, .project-date {
-            color: white;
-            font-family: montserrat;
-            font-weight: bold;
-        }
-
-        p {
-            font-family: nunito;
-            font-size: 20px;
-        }
-
-        .project-footer {
+        .card-content {
             display: flex;
-            align-items: center;
+            flex-direction: column;
+            height: 100%;
 
-            .site-button {
-                margin-left: auto;
+            h1 {
+                font-size: 30px;
+            }
+
+            h2, .project-date {
+                font-size: 20px;
+            }
+
+            h1, h2, .project-date {
+                color: white;
+                font-family: montserrat;
+                font-weight: bold;
+            }
+
+            p {
+                font-family: nunito;
+                font-size: 20px;
+            }
+
+            .project-footer {
+                align-items: center;
+                display: flex;
+                margin-top: auto;
+
+                .site-button {
+                    margin-left: auto;
+                }
             }
         }
     }

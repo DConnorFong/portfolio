@@ -13,8 +13,8 @@ class Projects extends Component {
                     dateStart: 'June 2019',
                     dateEnd: ''
                 },
-                projectDescription: 'Senti is a Google Chrome Extension that utilizes computer vision technology to record the emotional impact of various websites. The app aims to promote a mentally-healthy browsing experience.',
-                githubLink: "/"
+                projectDescription: 'Welcome to my portfolio website.',
+                githubLink: "https://github.com/DConnorFong/portfolio"
             },
             {
                 id: 'internado',
@@ -24,7 +24,7 @@ class Projects extends Component {
                     dateEnd: ''
                 },
                 projectAward: 'Top 15',
-                projectDescription: 'Senti is a Google Chrome Extension that utilizes computer vision technology to record the emotional impact of various websites. The app aims to promote a mentally-healthy browsing experience.',
+                projectDescription: "Internado is a free service that aims to find personalized internship opportunities based on a student's skills and interests.",
                 githubLink: "https://github.com/ubclaunchpad/Internado"
             },
             {
@@ -35,11 +35,11 @@ class Projects extends Component {
                     dateEnd: ''
                 },
                 projectAward: 'Top 20',
-                projectDescription: 'Senti is a Google Chrome Extension that utilizes computer vision technology to record the emotional impact of various websites. The app aims to promote a mentally-healthy browsing experience.',
+                projectDescription: 'sPARTYfy is a Spotify application that allows users to collectively compete for likes through song suggestions.',
                 skills: [
                     'HTML', 'CSS', 'React', 'Bootstrap', 'Node.js'
                 ],
-                githubLink: "/"
+                githubLink: "https://github.com/DConnorFong/spartyfy"
             },
             {
                 id: 'senti', 
@@ -50,7 +50,7 @@ class Projects extends Component {
                 },
                 projectAward: 'Top 15',
                 projectDescription: 'Senti is a Google Chrome Extension that utilizes computer vision technology to record the emotional impact of various websites. The app aims to promote a mentally-healthy browsing experience.',
-                githubLink: "/"
+                githubLink: "https://github.com/DConnorFong/Senti"
             },
             {
                 id: 'yelp-clone', 
@@ -60,8 +60,8 @@ class Projects extends Component {
                     dateEnd: ''
                 },
                 projectAward: 'Top 15',
-                projectDescription: 'Senti is a Google Chrome Extension that utilizes computer vision technology to record the emotional impact of various websites. The app aims to promote a mentally-healthy browsing experience.',
-                githubLink: "/"
+                projectDescription: 'A Yelp-clone database and server application that allows for multiple users to simultaneously access, write to, and query extensive restaurant data.',
+                githubLink: "https://github.com/DConnorFong/YelpDatabase"
             },
         ]
 

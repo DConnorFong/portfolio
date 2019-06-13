@@ -1,4 +1,5 @@
 import React from 'react';
+import Resume from '../../assets/Resume-ConnorFong.pdf';
 import './contact.scss'
 
 const Contact = () => { 
@@ -29,7 +30,7 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
-                <a className="button resume-button" href="# " target="_blank">
+                <a className="button resume-button" href={Resume} target="_blank">
                     <span className="icon"><i className="fas fa-sticky-note"></i></span>
                     &nbsp;
                     Check out my resume

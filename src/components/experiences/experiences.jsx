@@ -31,7 +31,7 @@ class Experiences extends Component {
             {
                 companyTitle: 'Launch Pad',
                 jobTitle: 'Software Developer',
-                imageUrl: 'launch-pad-2.png',
+                imageUrl: 'launch-pad.png',
                 companyDescription: 'UBC Launch Pad is a student software design team. Sub-teams comprising of designers and developers collaborate to build interesting applications in a professional environment.',
                 jobDescriptions: [
                     { 

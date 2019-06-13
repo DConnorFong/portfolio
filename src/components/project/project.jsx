@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import Date from '../date/date';
-import GithubLink from '../githubLink/githubLink';
 import SiteButton from '../siteButton/siteButton';
 import './project.scss';
-import img_ from '../../assets/background-1.jpg';
 
 class Project extends Component {
     state = {  
@@ -20,7 +18,7 @@ class Project extends Component {
         return ( 
             <div className="project">
                 <div id={this.state.id} className="card">
-                    <div className="card-content content">
+                    <div className="card-content">
                         <h1>{this.state.projectTitle}</h1>
                         <p>{this.state.projectDescription}</p>
                             <div className="project-footer">
