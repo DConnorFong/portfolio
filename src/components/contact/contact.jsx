@@ -1,38 +1,43 @@
-import React, { Component } from 'react';
+import React from 'react';
+import Resume from '../../assets/Resume-ConnorFong.pdf';
 import './contact.scss'
 
-class Contact extends Component {
-    state = { 
-        // icon must be formatted for HTML
-        icon: this.props.contact.icon.replace('\'', '"'),
-        title: this.props.contact.title,
-        value: this.props.contact.value,
-        link: this.props.contact.link
-    };
-
-    render() { 
-        return (
-            <React.Fragment> 
-                <div className="container site-contact">
-                    <div className="row justify-content-center">
-                        <a href={this.state.link} target="_blank" rel="noopener noreferrer">
-                            {this.renderIcon()} 
-                            <p>{this.state.value}</p>
-                        </a>
+const Contact = () => { 
+    return (
+        <div id="contact" className="section">
+            <div className="container has-text-centered">
+                <h1>Get In Touch</h1>
+                <h2>Let's start a conversation.</h2>
+                <div className="columns">
+                    <div className="column is-half is-full-mobile">
+                        <div className="card">
+                            <p>
+                                I am currently interested in 4-month internship opportunities for September to December.
+                                If you are hiring software engineers, or just want to say hi, please feel free to send me an email or LinkedIn invite.
+                            </p>   
+                        </div>
+                    </div>
+                    <div className="column is-half is-full-mobile" style={{ display: 'flex' }}>
+                        <div className="card">
+                            <span className="icon"><i className="fas fa-envelope"></i></span>
+                            &nbsp;
+                            <span className="contact-attribute">dconnorfong@gmail.com</span>
+                        </div>
+                        <div className="card">
+                            <span className="icon"><i className="fas fa-phone"></i></span>
+                            &nbsp;
+                            <span className="contact-attribute">1+ (669) 294-1063</span>
+                        </div>
                     </div>
                 </div>
-            </React.Fragment>
-        );
-    }
-
-    renderIcon() {
-        if (this.state.icon === '') {
-            return;
-        }
-        else {
-            return <i className={this.state.icon}></i>;
-        }
-    }
+                <a className="button resume-button" href={Resume} target="_blank">
+                    <span className="icon"><i className="fas fa-sticky-note"></i></span>
+                    &nbsp;
+                    Check out my resume
+                </a>
+            </div>
+        </div>
+    );
 }
 
 export default Contact;

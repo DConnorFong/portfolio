@@ -1,5 +1,23 @@
-#site-footer {
-    background-color: black;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
+.footer {
+    background-color: white;
+    font-family: montserrat;
+
+    h1 {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-family: nunito;
+        font-size: 20px;
+    }
+
+    @media only screen and (max-width: 769px) {
+        h1 {
+            font-size: 20px;
+        }
+
+        h2 {
+            font-size: 15px;
+        }
+    }
 }

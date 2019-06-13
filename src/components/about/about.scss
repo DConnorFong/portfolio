@@ -1,14 +1,100 @@
-#site-about {
-    color: white;
-    padding: 15% 15%;
-    text-align: center;
+$blue: #3273dc;
 
-    @media only screen and (max-width: 767px) {
-        padding: 100px 5%;
+#about {
+    background-color: white;
+    color: #4a4a4a;
+    font-family: nunito;
+
+    h1 {
+        font-family: montserrat;
+        font-size: 60px;
+        font-weight: bold;
     }
 
-    p {
-        font-size: 20px;
-        padding: 50px;
+    h2 {
+        font-family: montserrat;
+        font-size: 30px;
+    }
+
+    h3 {
+        font-family: montserrat;
+        font-size: 25px;
+    }
+
+    .card {
+        border-radius: 30px;
+        color: white;
+        height: 100%;
+        margin: 0px 20px;
+        
+        padding: 20px 40px;
+
+        p {
+            font-size: 25px;
+            padding: 5px 0px;
+        }
+        
+    }
+
+    .frameworks {
+        background-color: #bf0d3e;
+    }
+
+    .languages {
+        background-color: #910048;
+    }
+
+    .tools {
+        background-color: #d0006f;
+    }
+
+    .container {
+        // padding: 100px 50px;
+
+        .columns {
+            padding: 10vh 0px;
+
+        }
+
+        .icon {
+            margin: 25px;
+            padding: 75px;
+            border: 2px solid white;
+            border-radius: 100px;
+            i {
+                font-size: 75px;
+            }
+        }
+
+        @media only screen and (max-width: 769px) {
+            // padding: 100px 25px;
+
+            img {
+                height: 200px;
+                width: 200px;
+            }
+
+            h3 {
+                font-size: 30px;
+            }
+
+            p {
+                font-size: 20px; 
+            }
+
+            .columns {
+                display: contents;
+            }
+
+            .icon {
+                margin: 15px;
+                padding: 40px;
+                border: 5px solid white;
+                border-radius: 50px;
+                i {
+                    font-size: 50px;
+                }
+            }
+        }
     }
 }

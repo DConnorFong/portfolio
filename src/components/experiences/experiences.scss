@@ -1,0 +1,29 @@
+#experiences {
+    background: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url('../../assets/experience-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+
+    .timeline {
+        padding: 10vh 0px;
+    } 
+
+    #desktop-timeline {
+        display: unset;
+    }
+
+    #mobile-timeline {
+        display: none;
+    }
+
+    @media only screen and (max-width: 769px) {
+        #desktop-timeline {
+            display: none;
+        }
+
+        #mobile-timeline {
+            display: unset;
+        }
+    }
+}

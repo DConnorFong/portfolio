@@ -1,0 +1,68 @@
+.project {
+    min-height: 380px;
+    height: 100%;
+    .card {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        border-radius: 30px;
+        color: white;
+        height: 100%;
+        text-align: left;
+
+        .card-content {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+
+            h1 {
+                font-size: 30px;
+            }
+
+            h2, .project-date {
+                font-size: 20px;
+            }
+
+            h1, h2, .project-date {
+                color: white;
+                font-family: montserrat;
+                font-weight: bold;
+            }
+
+            p {
+                font-family: nunito;
+                font-size: 20px;
+            }
+
+            .project-footer {
+                align-items: center;
+                display: flex;
+                margin-top: auto;
+
+                .site-button {
+                    margin-left: auto;
+                }
+            }
+        }
+    }
+
+    #portfolio-website {
+        background-image: linear-gradient(45deg, #057855, #689550, #85c446);
+    }
+
+    #internado {
+        background-image: linear-gradient(45deg, #004b79, #0091cd, #56a0d3);
+    }
+
+    #spartyfy {
+        background-image: linear-gradient(#191414, #191414, #1db954);
+    }
+
+    #senti {
+        background-image: linear-gradient(45deg, #8e43e7, #b84592, #ff4f81);
+    }
+
+    #yelp-clone {
+        background-color: #af0606;
+    }
+}
