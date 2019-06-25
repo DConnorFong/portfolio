@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/static/media/fa-brands-400.d9d17590.eot"
   },
   {
-    "revision": "b7f2e3b00b09f02305a5",
-    "url": "/static/css/main.695ac7a5.chunk.css"
+    "revision": "0e264b3174dc65ae6f97",
+    "url": "/static/css/main.4ab38ea8.chunk.css"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
@@ -16,12 +16,12 @@ self.__precacheManifest = [
     "url": "/static/media/pni.b37b64ff.jpg"
   },
   {
-    "revision": "a496b2b672251f4aaa0d",
-    "url": "/static/js/2.a496b2b6.chunk.js"
+    "revision": "5dbc6558fc79803df1af",
+    "url": "/static/js/2.5dbc6558.chunk.js"
   },
   {
-    "revision": "d4cbfde2bc8748ce1e45225a75485f3f",
-    "url": "/static/media/Resume-ConnorFong.d4cbfde2.pdf"
+    "revision": "7a9e5f9863caff37732deb0d97157223",
+    "url": "/static/media/Resume-ConnorFong.7a9e5f98.pdf"
   },
   {
     "revision": "65779ebcc35604a25c2ba77309c5b8af",
@@ -56,8 +56,8 @@ self.__precacheManifest = [
     "url": "/static/media/fa-solid-900.61969d43.woff"
   },
   {
-    "revision": "b7f2e3b00b09f02305a5",
-    "url": "/static/js/main.b7f2e3b0.chunk.js"
+    "revision": "0e264b3174dc65ae6f97",
+    "url": "/static/js/main.0e264b31.chunk.js"
   },
   {
     "revision": "c39278f7abfc798a241551194f55e29f",
@@ -104,11 +104,11 @@ self.__precacheManifest = [
     "url": "/static/media/mindful-garden.6f609542.jpg"
   },
   {
-    "revision": "a496b2b672251f4aaa0d",
-    "url": "/static/css/2.d643f76d.chunk.css"
+    "revision": "5dbc6558fc79803df1af",
+    "url": "/static/css/2.75375b66.chunk.css"
   },
   {
-    "revision": "eda3e5f107b045631b5917a1a93e125b",
+    "revision": "08a95775e056de9af6c6649fa36de194",
     "url": "/index.html"
   }
 ];
