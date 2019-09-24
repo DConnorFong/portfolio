@@ -7,6 +7,28 @@ class Experiences extends Component {
     state = { 
         experienceObjects: [ 
             {
+                companyTitle: 'Launch Pad',
+                jobTitle: 'Lead Developer',
+                imageUrl: 'launch-pad.png',
+                companyDescription: 'UBC Launch Pad is a student software design team. Sub-teams comprising of designers and developers collaborate to build interesting applications in a professional environment.',
+                jobDescriptions: [
+                    { 
+                        icon: 'fas fa-server',
+                        summary: 'Full-Stack Development',
+                        description: 'Developed a ReactJS and NodeJS internship web application to allow students to find a large volume of workplace opportunities quickly'
+                    },
+                    {
+                        icon: 'fas fa-running',
+                        summary: 'AGILE',
+                        description: 'Designing sprints and delegating tickets to ensure that the project followed tangible and achievable deadlines'
+                    }
+                ],
+                dateObject: {
+                    dateStart: 'September 2019', 
+                    dateEnd: 'Present'
+                }
+            },
+            {
                 companyTitle: 'Xperiel',
                 jobTitle: 'Software Engineer (Co-op)',
                 imageUrl: 'xperiel.png',
@@ -25,29 +47,7 @@ class Experiences extends Component {
                 ],
                 dateObject: {
                     dateStart: 'May 2019', 
-                    dateEnd: 'Present'
-                }
-            },
-            {
-                companyTitle: 'Launch Pad',
-                jobTitle: 'Software Developer',
-                imageUrl: 'launch-pad.png',
-                companyDescription: 'UBC Launch Pad is a student software design team. Sub-teams comprising of designers and developers collaborate to build interesting applications in a professional environment.',
-                jobDescriptions: [
-                    { 
-                        icon: 'fas fa-server',
-                        summary: 'Full-Stack Development',
-                        description: 'Developed a ReactJS and NodeJS internship web application to allow students to find a large volume of workplace opportunities quickly'
-                    },
-                    {
-                        icon: 'fas fa-running',
-                        summary: 'AGILE',
-                        description: 'Designing sprints and delegating tickets to ensure that the project followed tangible and achievable deadlines'
-                    }
-                ],
-                dateObject: {
-                    dateStart: 'September 2018', 
-                    dateEnd: 'Present'
+                    dateEnd: 'August 2019'
                 }
             },
             {

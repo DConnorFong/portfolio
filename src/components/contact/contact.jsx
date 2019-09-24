@@ -12,7 +12,7 @@ const Contact = () => {
                     <div className="column is-half is-full-mobile">
                         <div className="card">
                             <p>
-                                I am currently interested in 4-month internship opportunities for September to December.
+                                I am currently interested in 12-16 week internship opportunities from May to August 2020.
                                 If you are hiring software engineers, or just want to say hi, please feel free to send me an email or LinkedIn invite.
                             </p>   
                         </div>
@@ -26,7 +26,7 @@ const Contact = () => {
                         <div className="card">
                             <span className="icon"><i className="fas fa-phone"></i></span>
                             &nbsp;
-                            <span className="contact-attribute">1+ (669) 294-1063</span>
+                            <span className="contact-attribute">1+ (778) 865-7321</span>
                         </div>
                     </div>
                 </div>
