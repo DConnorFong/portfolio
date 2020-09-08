@@ -1,5 +1,4 @@
 import React from 'react';
-import Resume from '../../assets/Resume-ConnorFong.pdf';
 import './contact.scss'
 
 const Contact = () => { 
@@ -12,7 +11,7 @@ const Contact = () => {
                     <div className="column is-half is-full-mobile">
                         <div className="card">
                             <p>
-                                I am currently interested in 12-16 week internship opportunities from May to August 2020.
+                                I am currently interested in full time opportunities starting in fall 2020.
                                 If you are hiring software engineers, or just want to say hi, please feel free to send me an email or LinkedIn invite.
                             </p>   
                         </div>
@@ -30,7 +29,7 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
-                <a className="button resume-button" href={Resume} target="_blank">
+                <a className="button resume-button" href='https://drive.google.com/file/d/19k5yDGhfLZw85q1FinwfFWepEsTgndez/view?usp=sharing' target="_blank" rel="noopener noreferrer">
                     <span className="icon"><i className="fas fa-sticky-note"></i></span>
                     &nbsp;
                     Check out my resume

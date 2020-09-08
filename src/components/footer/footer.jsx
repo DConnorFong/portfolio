@@ -13,7 +13,7 @@ const Footer = () => {
             <hr />
             <br />
             <h1><b>Created by Connor Fong</b></h1>
-            <h2>2019</h2>
+            <h2>2020</h2>
         </footer>
     );
 }

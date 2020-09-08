@@ -29,8 +29,30 @@ class Experiences extends Component {
                 }
             },
             {
+                companyTitle: 'Amazon',
+                jobTitle: 'Software Engineer Intern',
+                imageUrl: 'amazon.png',
+                companyDescription: 'Amazon is a multinational technology company with a focus on e-commerce and cloud computing.',
+                jobDescriptions: [
+                    { 
+                        icon: 'fas fa-leaf',
+                        summary: 'Sustainability',
+                        description: 'Engineered tools and features for large scale software systems relating to Amazon’s environmental sustainability initiatives'
+                    },
+                    {
+                        icon: 'fas fa-rocket',
+                        summary: 'Prototyping Technology',
+                        description: 'Designed prototype technology to explore viability in newer high-performance areas of software engineering'
+                    }
+                ],
+                dateObject: {
+                    dateStart: 'May 2020', 
+                    dateEnd: 'August 2020'
+                }
+            },
+            {
                 companyTitle: 'Xperiel',
-                jobTitle: 'Software Engineer (Co-op)',
+                jobTitle: 'Software Engineer Intern',
                 imageUrl: 'xperiel.png',
                 companyDescription: 'Xperiel is an internet of things and augmented reality platform that brings immersive cloud-based applications to clients such as PepsiCo, Sacramento Kings, and New York Jets.',
                 jobDescriptions: [
